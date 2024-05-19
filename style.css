@@ -37,8 +37,15 @@ main h2 {
     font-size: 24px;
 }
 
-#about, #trashTalk, #contact {
+#about, #trashTalk {
     margin-bottom: 20px;
+}
+
+.chairman-photo {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
 #posts {
@@ -67,21 +74,4 @@ footer {
     border-top: 2px solid #000080;
     padding: 10px;
     margin-top: 20px;
-}
-
-form input, form textarea {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-form button {
-    background-color: #0073e6;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #005bb5;
 }

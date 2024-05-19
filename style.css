@@ -42,7 +42,7 @@ main h2 {
 }
 
 .chairman-photo {
-    transform: scale(0.067); /* Scale down to 1/15th of original size */
+    transform: scale(0.1); /* Scale down*/
     display: block;
     margin: 0 auto 20px auto;
 }

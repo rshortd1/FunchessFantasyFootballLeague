@@ -12,3 +12,12 @@ function addPost() {
     document.getElementById('posts').appendChild(postDiv);
     document.getElementById('newPost').value = "";
 }
+
+function addGuestbookEntry() {
+    const name = document.getElementById('guestName').value;
+    const message = document.getElementById('guestMessage').value;
+    const entryDiv = document.createElement('div');
+    entryDiv.className = 'guestbookEntry';
+    entryDiv.innerHTML = `<strong>${name}:</strong> <p>${message}</p>`;
+    document.getElementById('guestbookEntries').appendChild(entryDiv);
+}

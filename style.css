@@ -17,6 +17,7 @@ body {
 header {
     text-align: center;
     border-bottom: 2px solid #000080;
+    padding-bottom: 20px;
 }
 
 header h1 {
@@ -35,16 +36,19 @@ main {
 
 main h2 {
     font-size: 24px;
+    text-align: center;
 }
 
 #about, #trashTalk {
     margin-bottom: 20px;
+    text-align: center; /* Center-align content in these sections */
 }
 
 .chairman-photo {
-    transform: scale(0.1); /* Scale down*/
+    width: auto; /* Adjust width and height proportionally */
+    height: 150px; /* Set desired height */
     display: block;
-    margin: 0 auto 20px auto;
+    margin: 10px auto; /* Center the image and reduce white space */
 }
 
 #posts {

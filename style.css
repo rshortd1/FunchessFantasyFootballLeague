@@ -1,7 +1,7 @@
 body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    background-color: #f0f0f0;
-    color: #000080;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: url('background_pattern.gif') repeat;
+    color: #00f;
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@ body {
     width: 800px;
     margin: 0 auto;
     background-color: #ffffff;
-    border: 2px solid #000080;
+    border: 5px dotted #ff0000;
     padding: 20px;
 }
 
@@ -47,15 +47,15 @@ main h2 {
 }
 
 button {
-    background-color: #000080;
-    color: #ffffff;
-    border: none;
+    background-color: #ff0;
+    border: 2px solid #000;
     padding: 10px 20px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0000ff;
+    background-color: #ffa500;
 }
 
 footer {

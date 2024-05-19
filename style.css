@@ -42,7 +42,7 @@ main h2 {
 }
 
 .chairman-photo {
-    width: 10%;  /* Set the width to 10% of the original size */
+    width: 10%;  /* Set the width to 10% */
     display: block;
     margin: 0 auto 20px auto;
 }

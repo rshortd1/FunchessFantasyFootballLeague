@@ -9,23 +9,37 @@
 <body>
     <div class="container">
         <header>
-            <h1>Welcome to My Early 2000s Themed Website</h1>
+            <h1><blink>Welcome to My Early 2000s Themed Website</blink></h1>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
             </nav>
+            <marquee behavior="scroll" direction="left">This is a scrolling text marquee!</marquee>
         </header>
         <main>
             <h2>Latest Posts</h2>
             <div id="posts"></div>
             <textarea id="newPost" placeholder="Write something..."></textarea>
             <button onclick="addPost()">Post</button>
+            <h2>Sign My Guestbook</h2>
+            <form id="guestbookForm">
+                <input type="text" id="guestName" placeholder="Your Name">
+                <textarea id="guestMessage" placeholder="Your Message"></textarea>
+                <button type="button" onclick="addGuestbookEntry()">Sign</button>
+            </form>
+            <div id="guestbookEntries"></div>
+            <h2>Visitor Counter</h2>
+            <img src="https://www.counter12.com/img-12345678-zy89.gif" alt="Visitor Counter">
+            <h2>Retro Images</h2>
+            <img src="dancing_baby.gif" alt="Dancing Baby">
+            <img src="under_construction.gif" alt="Under Construction">
         </main>
         <footer>
             <p>&copy; 2024 My Early 2000s Website</p>
         </footer>
     </div>
+    <embed src="background_music.mid" autostart="true" loop="true" hidden="true">
     <script src="script.js"></script>
 </body>
 </html>
